@@ -1,0 +1,91 @@
+.modal-auth {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-auth .modal-dialog {
+    background-color: #fff;
+    width: 400px;
+    padding: 0px 30px 30px 30px;
+    border-radius: 15px;
+}
+
+.modal-auth .modal-dialog h1 {
+    padding: 15px 0;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.modal-auth .modal-dialog .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.modal-auth .modal-dialog .inputs label {
+    position: relative;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.modal-auth .modal-dialog .inputs label img {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    height: 20px;
+    transform: translateY(-50%);
+}
+
+.modal-auth .modal-dialog .inputs label input {
+    border: none;
+    box-shadow: 2px 2px 2px #d4d4d4,
+                inset 2px 2px 2px #d4d4d4;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 5px 15px 5px 40px;
+    width: 100%;
+    outline: none;
+}
+
+.modal-auth .modal-dialog .inputs .no-valid {
+    display: none;
+    color: rgb(252, 76, 76);
+    font-size: 0.9em;
+}
+
+.modal-auth .modal-dialog .inputs .no-valid.visible {
+    display: block;
+}
+
+.modal-auth .modal-dialog .inputs button {
+    width: 50%;
+    border: solid 1px #424242;
+    background-color: transparent;
+    color: #424242;
+    font-weight: 400;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 5px 0;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.modal-auth .modal-dialog .inputs button:hover {
+    background-color: #424242;
+    color: #ffffff;
+}
+
+.modal-auth .modal-dialog .register {
+    font-size: 0.9em;
+    margin-top: 30px;
+    text-align: center;
+}

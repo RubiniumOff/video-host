@@ -1,0 +1,79 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 60px);
+    padding: 10px 30px;
+    position: relative;
+    gap: 30px;
+    box-shadow: 1px 1px 10px #d3d3d3;
+}
+
+header .logotype {
+    display: flex;
+    gap: 15px;
+    width: 235px;
+}
+
+header .logotype img {
+    width: 100px;
+}
+
+header .search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+header .search form {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+header .search form input {
+    width: 100%;
+    border: none;
+    box-shadow: 2px 2px 2px #d3d3d3,
+                inset 2px 2px 2px #d3d3d3;
+    border-radius: 10px;
+    padding: 10px 15px;
+    outline: none;
+}
+
+header .search form .search-button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .search .search-button img {
+    height: 30px;
+}
+
+header .profile {
+    position: relative;
+    width: 235px;
+    display: flex;
+    justify-content: end;
+}
+
+header .profile img {
+    height: 75px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+header .profile button {
+    background-color: transparent;
+    color: #2255ff;
+    cursor: pointer;
+    font-size: 1em;
+    border: none;
+}

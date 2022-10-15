@@ -1,0 +1,17 @@
+.right-menu {
+    position: fixed;
+    top: 95px;
+    right: -300px;
+    background-color: #dbdbdb;
+    width: 300px;
+    height: calc(100vh - 95px);
+    transition: 0.3s ease-in-out;
+}
+
+.right-menu.open {
+    right: 0;
+}
+
+.right-menu h3 {
+    text-align: center;
+}
